@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Shooter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <header>
+      <div>
+        <p class="eyebrow">ARCADE • MINI GAME</p>
+        <h1>SPACE SHOOTER</h1>
+      </div>
+      <div class="score-box">SCORE <strong id="score">0</strong></div>
+    </header>
+
+    <section class="game-area">
+      <canvas id="game" width="800" height="520" aria-label="Space Shooter game"></canvas>
+      <div class="overlay" id="overlay">
+        <div class="panel">
+          <p class="eyebrow">READY, PILOT?</p>
+          <h2 id="message">Defend the galaxy!</h2>
+          <p id="instructions">Move with ← → or A / D. Press SPACE to shoot.</p>
+          <button id="startBtn">START GAME</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span>← → / A D <small>MOVE</small></span>
+      <span>SPACE <small>SHOOT</small></span>
+      <span>DESTROY ENEMIES <small>GET POINTS</small></span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
